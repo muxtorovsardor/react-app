@@ -12,7 +12,9 @@ function App() {
     return () => clearTimeout(timer)
   }, [])
 
-  return <h1>I've rendered {count} times!</h1>
+  return <h1>
+    Render qilindi {count}
+  </h1>
 }
 
 export default App;
